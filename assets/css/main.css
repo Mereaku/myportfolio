@@ -148,9 +148,9 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Merriweather", Georgia, serif;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, serif;
 		font-weight: 300;
-		font-size: 1rem;
+		font-size: 1.1rem;
 		line-height: 2.375;
 	}
 
@@ -185,7 +185,7 @@ input, select, textarea {
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		text-transform: uppercase;
+		text-transform: Proper;
 		margin: 0 0 1rem 0;
 	}
 
@@ -2079,7 +2079,7 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		height: 3rem;
@@ -2087,7 +2087,7 @@ input, select, textarea {
 		padding: 0 2rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		text-transform: Proper;
 		white-space: nowrap;
 	}
 
@@ -2206,7 +2206,7 @@ input, select, textarea {
 	button,
 	.button {
 		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #212931;
+		box-shadow: inset 0 0 0 2px #301d20;
 		color: #212931 !important;
 	}
 
@@ -2215,7 +2215,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #18bfef ;
 			color: #18bfef !important;
 		}
 
@@ -2224,7 +2224,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #212931;
+			background-color: #18bfef;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -2318,7 +2318,7 @@ input, select, textarea {
 		line-height: 1.5;
 		letter-spacing: 0.075em;
 		font-size: 0.8rem;
-		text-transform: uppercase;
+		text-transform: Proper;
 		margin: 0 0 0.75rem 0;
 	}
 
@@ -3233,7 +3233,7 @@ input, select, textarea {
 			left: 0;
 			width: 100%;
 			height: 100%;
-			background-color: #212637;
+			background-color: #1a2e2e;
 			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
@@ -3386,13 +3386,13 @@ input, select, textarea {
 				}
 
 		#intro h1 {
-			font-size: 5rem;
+			font-size: 3rem;
 			line-height: 1;
 		}
 
 		#intro p {
-			font-size: 1.25rem;
-			font-style: italic;
+			font-size: 1.3rem;
+			font-style: normal;
 			margin-top: -0.25rem;
 			text-align: center;
 		}
